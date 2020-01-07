@@ -1,0 +1,11 @@
+framework module masturi {
+  umbrella header "masturi.h"
+
+  export *
+  module * { export * }
+}
+
+module masturi.Swift {
+    header "masturi-Swift.h"
+    requires objc
+}
